@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang=''>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="styles.css">
+   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="script.js"></script>
+   <script src="validaCPF.js"></script>
+   <title>Sistema de Solicitações do Almoço - Menu Principal</title>
+</head>
+<body>
+
+<div id='cssmenu'>
+<ul>
+
+
+   <li><a href='http://localhost/Aulamenu/index.html'>Home</a></li>
+   <li class='active'><a href='#'>Almoço</a>
+      <ul>
+         <li><a href='http://localhost/Aulamenu/matricula.html'>Solicitações</a></li>
+         <li><a href='#'>Cancelamento</a></li>
+		 <li><a href='#'>Cardápio</a></li>		
+      </ul>
+   </li>
+   
+   <li><a href='#'>Horários dos Cursos</a>
+       <ul>
+	        <li><a href='#'>Integrado</a>
+			       <ul>
+				        <li><a href='#'>Técnico em Agroindústria</a></li>
+						<li><a href='#'>Técnico em Agropecuária</a></li>
+						<li><a href='#'>Técnico em Informática</a></li>
+			       </ul>
+			</li>
+			<li><a href='#'>Subsequente</a></li>
+			<li><a href='#'>Graduação</a></li>
+	   </ul>
+	   
+     <li><a href='#'>Valores Nutricionais
+	 </a>
+       <ul>
+	        <li><a href='#'>Restrições</a>
+			       <ul>
+				        <li><a href='#'>Vegetariano</a></li>
+						<li><a href='#'>Hipertensão</a></li>
+						<li><a href='#'>Diabetes</a></li>
+						<li><a href='#'>Lactose</a></li>
+						<li><a href='#'>Glúten</a></li>
+						<li><a href='#'>Outros</a></li>
+			       </ul>
+			</li>
+		
+	   </ul>
+   </li>
+   <li><a href='#'>Sobre</a></li>
+   <li><a href='#'>Contato</a></li>
+   <script> if (validaCPF("08091711558")) {
+            alert("seu cpf está correto");
+            } else {
+			  alert("cpf incorreto");
+			}
+    </script>
+</ul>
+</div>
+<img src="logo.jpg"/> 
+</body>
+<html>
